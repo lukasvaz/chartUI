@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Typography, CssBaseline, Box, Paper, Container } from '@mui/material';
+import { Typography, CssBaseline, Paper} from '@mui/material';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import RoundButton from './components/RoundButton.js';
 import Chart from './components/Chart.js';
@@ -29,7 +29,7 @@ export default function MainPage() {
   async function getData() {
     setState('loading');
     const response = await fetch(
-      'https://mockly.app/api/38534cce-0c18-4043-94a6-21b0ae62f48a/speed'
+      'https://mockly.app/api/523c6ea4-0ea5-49d2-8ada-57721b09eca8/HE1gJm801aTEnxMBJreOo'
     );
     const data = await response.json();
     setState('done');

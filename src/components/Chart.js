@@ -76,7 +76,7 @@ export default function Chart({ data }) {
   React.useEffect(() => {
     const interval = setInterval(() => {
       updateSeries();
-    }, 2000);
+    }, 1000);
 
     return () => clearInterval(interval);
   });

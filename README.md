@@ -1,3 +1,7 @@
-# stackblitz-starters-l4hyxm
+## ChartUI
+A simple UI displaying data from an  API.It is built using React , Chart.js and  materialUI.  
+It was done for  learning purposes.
 
-[Edit in Codeflow ⚡️](https://stackblitz.com/~/github.com/lukasvaz/stackblitz-starters-l4hyxm)
+It looks like this:
+
+![Alt Text](chart.gif)
